@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="601dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#B8A5A5">
+
+                <LinearLayout
+                    android:id="@+id/innerLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E6D8D8"
+                    android:onClick="card1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cityView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="55sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/innerLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6200ED"
+                    android:onClick="card2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cityView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="55sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/innerLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E6D8D8"
+                    android:onClick="card3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cityView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="55sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/innerLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#6200ED"
+                    android:onClick="card4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cityView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="55sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
