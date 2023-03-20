@@ -28,7 +28,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="262dp"
+            android:layout_height="171dp"
             app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal_background" />
 
         <TextView
@@ -91,10 +91,6 @@
             android:textSize="45sp"
             android:textStyle="bold" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="70dp" />
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="78dp"
@@ -102,14 +98,14 @@
 
             <Button
                 android:id="@+id/button10"
-                android:layout_width="300dp"
+                android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:onClick="mapGo"
                 android:text="Карта" />
 
             <Button
                 android:id="@+id/button15"
-                android:layout_width="300dp"
+                android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:onClick="listGo"
                 android:text="Список" />

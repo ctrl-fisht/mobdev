@@ -13,7 +13,7 @@ import retrofit2.http.Query;
 
 public interface Api {
 
-    static String URL = "http://api.openweathermap.org/";
+    static String URL = "https://api.openweathermap.org/";
 
     @GET("data/2.5/weather")
     Observable<WeatherData> getWeatherDataByCity(@Query("q") String city,

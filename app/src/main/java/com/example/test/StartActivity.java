@@ -37,8 +37,9 @@ public class StartActivity extends AppCompatActivity {
 
         if (!mSettings.getBoolean(APP_PREFERENCES_IS_NEW, true))
         {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+            // Если нужно чтобы стартовый экран не показывался закоментить
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
         }
 
         // database init

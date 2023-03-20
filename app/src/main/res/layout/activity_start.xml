@@ -53,7 +53,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="135dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="20dp"
             android:onClick="startGo"
             android:text="Продолжить"
             app:layout_constraintTop_toBottomOf="@+id/spinner5" />
