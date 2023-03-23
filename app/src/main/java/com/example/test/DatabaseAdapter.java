@@ -69,6 +69,13 @@ public class DatabaseAdapter {
         return  database.insert(DatabaseHelper.TABLE, null, cv);
     }
 
+    public long delete(long cityId){
+
+        String whereClause = "id = ?";
+        String[] whereArgs = new String[]{String.valueOf(cityId)};
+        return database.delete(DatabaseHelper.TABLE, whereClause, whereArgs);
+    }
+
     public long update(City city){
 
         String whereClause = DatabaseHelper.COLUMN_ID + "=" + city.id;
@@ -76,4 +83,6 @@ public class DatabaseAdapter {
         cv.put(DatabaseHelper.COLUMN_CITY, city.city);
         return database.update(DatabaseHelper.TABLE, cv, whereClause, null);
     }
+
+
 }
