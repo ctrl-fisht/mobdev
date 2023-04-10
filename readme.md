@@ -28,7 +28,7 @@
 2. Прописать следующие команды
 ```
 cd "Путь к распакованному проекту"
-gradlew.bat build
+gradlew.bat assembleDebug
 ```
 
 ##### Mac OS / Linux
@@ -36,7 +36,7 @@ gradlew.bat build
 2. Прописать следующие команды
 ```
 $ cd "Путь к распакованному проекту"
-gradle build
+gradle assembleDebug
 ```
 
 После успешного выполнения команды в директории "путь к распакованному проекту"/app/build/apk/debug 
